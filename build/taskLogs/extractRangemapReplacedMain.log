@@ -1,0 +1,8 @@
+Symbol range map extraction starting
+Processing 6 files
+processing com/jamesr/commandaliases/CommandAliases.java
+processing com/jamesr/commandaliases/commands/AliasCommand.java
+processing com/jamesr/commandaliases/commands/CommandAliasesCommand.java
+processing com/jamesr/commandaliases/config/ConfigManager.java
+processing com/jamesr/commandaliases/utils/ChatUtils.java
+processing com/jamesr/commandaliases/utils/SystemUtils.java

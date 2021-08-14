@@ -1,0 +1,16 @@
+[
+{
+  "modid": "commandaliases",
+  "name": "Command Aliases",
+  "description": "create command aliases for minecraftforge 1.8.9",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["jamesr"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
