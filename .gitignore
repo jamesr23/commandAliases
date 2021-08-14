@@ -1,0 +1,13 @@
+
+run/
+bin/
+eclipse/
+.gradle/
+.settings/
+
+.classpath
+.project
+.DS_STORE
+
+gradle-app.setting
+.gradletasknamecache

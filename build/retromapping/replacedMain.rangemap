@@ -1,0 +1,438 @@
+Symbol range map extraction starting
+Processing 6 files
+processing com/jamesr/commandaliases/CommandAliases.java
+@|com/jamesr/commandaliases/CommandAliases.java|8|33|com.jamesr.commandaliases|package|com.jamesr.commandaliases|(file)
+Class Start: com.jamesr.commandaliases.CommandAliases
+   @|com/jamesr/commandaliases/CommandAliases.java|1013|1019|String|class|java.lang.String
+   @|com/jamesr/commandaliases/CommandAliases.java|1020|1025|MODID|field|com.jamesr.commandaliases.CommandAliases|MODID|
+   @|com/jamesr/commandaliases/CommandAliases.java|1070|1076|String|class|java.lang.String
+   @|com/jamesr/commandaliases/CommandAliases.java|1077|1084|VERSION|field|com.jamesr.commandaliases.CommandAliases|VERSION|
+   @|com/jamesr/commandaliases/CommandAliases.java|1285|1291|String|class|java.lang.String
+   @|com/jamesr/commandaliases/CommandAliases.java|1293|1305|AliasCommand|class|com.jamesr.commandaliases.commands.AliasCommand
+   @|com/jamesr/commandaliases/CommandAliases.java|1281|1284|Map|class|java.util.Map
+   @|com/jamesr/commandaliases/CommandAliases.java|1307|1314|aliases|field|com.jamesr.commandaliases.CommandAliases|aliases|
+   @|com/jamesr/commandaliases/CommandAliases.java|1321|1328|HashMap|class|java.util.HashMap
+   @|com/jamesr/commandaliases/CommandAliases.java|1329|1335|String|class|java.lang.String
+   @|com/jamesr/commandaliases/CommandAliases.java|1337|1349|AliasCommand|class|com.jamesr.commandaliases.commands.AliasCommand
+   Method Start: CommandAliases()V
+      @|com/jamesr/commandaliases/CommandAliases.java|1370|1384|CommandAliases|method|com.jamesr.commandaliases.CommandAliases|CommandAliases|()V
+   Method End: CommandAliases()V
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/jamesr/commandaliases/CommandAliases.java|1429|1436|preInit|method|com.jamesr.commandaliases.CommandAliases|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/jamesr/commandaliases/CommandAliases.java|1437|1462|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com/jamesr/commandaliases/CommandAliases.java|1463|1468|event|param|com.jamesr.commandaliases.CommandAliases|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/jamesr/commandaliases/CommandAliases.java|1483|1492|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/CommandAliases.java|1493|1499|prefix|field|com.jamesr.commandaliases.utils.ChatUtils|prefix
+      @|com/jamesr/commandaliases/CommandAliases.java|1528|1548|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com/jamesr/commandaliases/CommandAliases.java|1549|1557|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com/jamesr/commandaliases/CommandAliases.java|1558|1573|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com/jamesr/commandaliases/CommandAliases.java|1578|1599|CommandAliasesCommand|class|com.jamesr.commandaliases.commands.CommandAliasesCommand
+      @|com/jamesr/commandaliases/CommandAliases.java|1614|1619|Entry|class|java.util.Map.Entry
+      @|com/jamesr/commandaliases/CommandAliases.java|1620|1626|String|class|java.lang.String
+      @|com/jamesr/commandaliases/CommandAliases.java|1628|1634|String|class|java.lang.String
+      @|com/jamesr/commandaliases/CommandAliases.java|1644|1657|ConfigManager|class|com.jamesr.commandaliases.config.ConfigManager
+      @|com/jamesr/commandaliases/CommandAliases.java|1658|1668|getAliases|method|com.jamesr.commandaliases.config.ConfigManager|getAliases|()Ljava/util/Map;
+      @|com/jamesr/commandaliases/CommandAliases.java|1671|1679|entrySet|method|java.util.Map|entrySet|()Ljava/util/Set;
+      @|com/jamesr/commandaliases/CommandAliases.java|1689|1697|addAlias|method|com.jamesr.commandaliases.CommandAliases|addAlias|(Ljava/lang/String;Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/CommandAliases.java|1704|1710|getKey|method|java.util.Map.Entry|getKey|()Ljava/lang/Object;
+      @|com/jamesr/commandaliases/CommandAliases.java|1720|1728|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: addAlias(Ljava/lang/String;Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/CommandAliases.java|1773|1781|addAlias|method|com.jamesr.commandaliases.CommandAliases|addAlias|(Ljava/lang/String;Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/CommandAliases.java|1782|1788|String|class|java.lang.String
+      @|com/jamesr/commandaliases/CommandAliases.java|1789|1794|alias|param|com.jamesr.commandaliases.CommandAliases|addAlias|(Ljava/lang/String;Ljava/lang/String;)V|alias|0
+      @|com/jamesr/commandaliases/CommandAliases.java|1796|1802|String|class|java.lang.String
+      @|com/jamesr/commandaliases/CommandAliases.java|1803|1810|command|param|com.jamesr.commandaliases.CommandAliases|addAlias|(Ljava/lang/String;Ljava/lang/String;)V|command|1
+      @|com/jamesr/commandaliases/CommandAliases.java|2007|2027|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com/jamesr/commandaliases/CommandAliases.java|2028|2036|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com/jamesr/commandaliases/CommandAliases.java|2037|2048|getCommands|method|net.minecraft.command.ICommandManager|getCommands|()Ljava/util/Map;
+      @|com/jamesr/commandaliases/CommandAliases.java|2051|2062|containsKey|method|java.util.Map|containsKey|(Ljava/lang/Object;)Z
+      @|com/jamesr/commandaliases/CommandAliases.java|2063|2068|alias|param|com.jamesr.commandaliases.CommandAliases|addAlias|(Ljava/lang/String;Ljava/lang/String;)V|alias|0
+      @|com/jamesr/commandaliases/CommandAliases.java|2079|2088|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/CommandAliases.java|2089|2101|printMessage|method|com.jamesr.commandaliases.utils.ChatUtils|printMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/CommandAliases.java|2102|2107|alias|param|com.jamesr.commandaliases.CommandAliases|addAlias|(Ljava/lang/String;Ljava/lang/String;)V|alias|0
+      @|com/jamesr/commandaliases/CommandAliases.java|2174|2186|AliasCommand|class|com.jamesr.commandaliases.commands.AliasCommand
+      @|com/jamesr/commandaliases/CommandAliases.java|2202|2214|AliasCommand|class|com.jamesr.commandaliases.commands.AliasCommand
+      @|com/jamesr/commandaliases/CommandAliases.java|2215|2220|alias|param|com.jamesr.commandaliases.CommandAliases|addAlias|(Ljava/lang/String;Ljava/lang/String;)V|alias|0
+      @|com/jamesr/commandaliases/CommandAliases.java|2222|2229|command|param|com.jamesr.commandaliases.CommandAliases|addAlias|(Ljava/lang/String;Ljava/lang/String;)V|command|1
+      @|com/jamesr/commandaliases/CommandAliases.java|2237|2244|aliases|field|com.jamesr.commandaliases.CommandAliases|aliases
+      @|com/jamesr/commandaliases/CommandAliases.java|2245|2248|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/jamesr/commandaliases/CommandAliases.java|2249|2254|alias|param|com.jamesr.commandaliases.CommandAliases|addAlias|(Ljava/lang/String;Ljava/lang/String;)V|alias|0
+      @|com/jamesr/commandaliases/CommandAliases.java|2269|2289|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com/jamesr/commandaliases/CommandAliases.java|2290|2298|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com/jamesr/commandaliases/CommandAliases.java|2299|2314|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com/jamesr/commandaliases/CommandAliases.java|2328|2341|ConfigManager|class|com.jamesr.commandaliases.config.ConfigManager
+      @|com/jamesr/commandaliases/CommandAliases.java|2342|2359|writeStringConfig|method|com.jamesr.commandaliases.config.ConfigManager|writeStringConfig|(Ljava/lang/String;Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/CommandAliases.java|2369|2374|alias|field|com.jamesr.commandaliases.commands.AliasCommand|alias
+      @|com/jamesr/commandaliases/CommandAliases.java|2385|2392|command|field|com.jamesr.commandaliases.commands.AliasCommand|command
+      @|com/jamesr/commandaliases/CommandAliases.java|2397|2406|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/CommandAliases.java|2407|2419|printMessage|method|com.jamesr.commandaliases.utils.ChatUtils|printMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/CommandAliases.java|2449|2454|alias|field|com.jamesr.commandaliases.commands.AliasCommand|alias
+      @|com/jamesr/commandaliases/CommandAliases.java|2475|2482|command|field|com.jamesr.commandaliases.commands.AliasCommand|command
+   Method End: addAlias(Ljava/lang/String;Ljava/lang/String;)V
+   Method Start: removeAlias(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/CommandAliases.java|2519|2530|removeAlias|method|com.jamesr.commandaliases.CommandAliases|removeAlias|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/CommandAliases.java|2531|2537|String|class|java.lang.String
+      @|com/jamesr/commandaliases/CommandAliases.java|2538|2543|alias|param|com.jamesr.commandaliases.CommandAliases|removeAlias|(Ljava/lang/String;)V|alias|0
+      @|com/jamesr/commandaliases/CommandAliases.java|2604|2616|AliasCommand|class|com.jamesr.commandaliases.commands.AliasCommand
+      @|com/jamesr/commandaliases/CommandAliases.java|2628|2635|aliases|field|com.jamesr.commandaliases.CommandAliases|aliases
+      @|com/jamesr/commandaliases/CommandAliases.java|2636|2642|remove|method|java.util.Map|remove|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/jamesr/commandaliases/CommandAliases.java|2643|2648|alias|param|com.jamesr.commandaliases.CommandAliases|removeAlias|(Ljava/lang/String;)V|alias|0
+      @|com/jamesr/commandaliases/CommandAliases.java|2686|2706|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com/jamesr/commandaliases/CommandAliases.java|2707|2715|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com/jamesr/commandaliases/CommandAliases.java|2716|2727|getCommands|method|net.minecraft.command.ICommandManager|getCommands|()Ljava/util/Map;
+      @|com/jamesr/commandaliases/CommandAliases.java|2730|2736|remove|method|java.util.Map|remove|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/jamesr/commandaliases/CommandAliases.java|2737|2742|alias|param|com.jamesr.commandaliases.CommandAliases|removeAlias|(Ljava/lang/String;)V|alias|0
+      @|com/jamesr/commandaliases/CommandAliases.java|2751|2764|ConfigManager|class|com.jamesr.commandaliases.config.ConfigManager
+      @|com/jamesr/commandaliases/CommandAliases.java|2765|2783|removeStringConfig|method|com.jamesr.commandaliases.config.ConfigManager|removeStringConfig|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/CommandAliases.java|2784|2789|alias|param|com.jamesr.commandaliases.CommandAliases|removeAlias|(Ljava/lang/String;)V|alias|0
+      @|com/jamesr/commandaliases/CommandAliases.java|2798|2807|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/CommandAliases.java|2808|2820|printMessage|method|com.jamesr.commandaliases.utils.ChatUtils|printMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/CommandAliases.java|2850|2855|alias|field|com.jamesr.commandaliases.commands.AliasCommand|alias
+      @|com/jamesr/commandaliases/CommandAliases.java|2876|2883|command|field|com.jamesr.commandaliases.commands.AliasCommand|command
+      @|com/jamesr/commandaliases/CommandAliases.java|2906|2915|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/CommandAliases.java|2916|2928|printMessage|method|com.jamesr.commandaliases.utils.ChatUtils|printMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/CommandAliases.java|2929|2934|alias|param|com.jamesr.commandaliases.CommandAliases|removeAlias|(Ljava/lang/String;)V|alias|0
+   Method End: removeAlias(Ljava/lang/String;)V
+Class End  : com.jamesr.commandaliases.CommandAliases
+endProcessing com/jamesr/commandaliases/CommandAliases.java
+
+processing com/jamesr/commandaliases/commands/AliasCommand.java
+@|com/jamesr/commandaliases/commands/AliasCommand.java|8|42|com.jamesr.commandaliases.commands|package|com.jamesr.commandaliases.commands|(file)
+Class Start: com.jamesr.commandaliases.commands.AliasCommand
+   @|com/jamesr/commandaliases/commands/AliasCommand.java|328|334|String|class|java.lang.String
+   @|com/jamesr/commandaliases/commands/AliasCommand.java|335|340|alias|field|com.jamesr.commandaliases.commands.AliasCommand|alias|
+   @|com/jamesr/commandaliases/commands/AliasCommand.java|350|356|String|class|java.lang.String
+   @|com/jamesr/commandaliases/commands/AliasCommand.java|357|364|command|field|com.jamesr.commandaliases.commands.AliasCommand|command|
+   Method Start: AliasCommand(Ljava/lang/String;Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|376|388|AliasCommand|method|com.jamesr.commandaliases.commands.AliasCommand|AliasCommand|(Ljava/lang/String;Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|389|395|String|class|java.lang.String
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|396|401|alias|param|com.jamesr.commandaliases.commands.AliasCommand|AliasCommand|(Ljava/lang/String;Ljava/lang/String;)V|alias|0
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|403|409|String|class|java.lang.String
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|410|417|command|param|com.jamesr.commandaliases.commands.AliasCommand|AliasCommand|(Ljava/lang/String;Ljava/lang/String;)V|command|1
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|428|433|alias|field|com.jamesr.commandaliases.commands.AliasCommand|alias
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|436|441|alias|param|com.jamesr.commandaliases.commands.AliasCommand|AliasCommand|(Ljava/lang/String;Ljava/lang/String;)V|alias|0
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|450|457|command|field|com.jamesr.commandaliases.commands.AliasCommand|command
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|460|467|command|param|com.jamesr.commandaliases.commands.AliasCommand|AliasCommand|(Ljava/lang/String;Ljava/lang/String;)V|command|1
+   Method End: AliasCommand(Ljava/lang/String;Ljava/lang/String;)V
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|521|535|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|514|520|String|class|java.lang.String
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|549|554|alias|field|com.jamesr.commandaliases.commands.AliasCommand|alias
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getRequiredPermissionLevel()I
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|583|609|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|652|667|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|645|651|String|class|java.lang.String
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|668|682|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|683|689|sender|param|com.jamesr.commandaliases.commands.AliasCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|736|750|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|796|812|CommandException|class|net.minecraft.command.CommandException
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|751|765|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|766|772|sender|param|com.jamesr.commandaliases.commands.AliasCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|774|780|String|class|java.lang.String
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|783|787|args|param|com.jamesr.commandaliases.commands.AliasCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|1003|1007|args|param|com.jamesr.commandaliases.commands.AliasCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|1023|1032|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|1033|1044|sendMessage|method|com.jamesr.commandaliases.utils.ChatUtils|sendMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|1045|1052|command|field|com.jamesr.commandaliases.commands.AliasCommand|command
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|1061|1067|String|class|java.lang.String
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|1068|1072|join|method|java.lang.String|join|(Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|1078|1082|args|param|com.jamesr.commandaliases.commands.AliasCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|1096|1105|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|1106|1117|sendMessage|method|com.jamesr.commandaliases.utils.ChatUtils|sendMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/AliasCommand.java|1118|1125|command|field|com.jamesr.commandaliases.commands.AliasCommand|command
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+Class End  : com.jamesr.commandaliases.commands.AliasCommand
+endProcessing com/jamesr/commandaliases/commands/AliasCommand.java
+
+processing com/jamesr/commandaliases/commands/CommandAliasesCommand.java
+@|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|8|42|com.jamesr.commandaliases.commands|package|com.jamesr.commandaliases.commands|(file)
+Class Start: com.jamesr.commandaliases.commands.CommandAliasesCommand
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|477|491|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|470|476|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getRequiredPermissionLevel()I
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|534|560|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+   Method Start: addTabCompletionOptions(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|623|646|addTabCompletionOptions|method|net.minecraft.command.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|615|621|String|class|java.lang.String
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|610|614|List|class|java.util.List
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|647|661|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|662|668|sender|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|sender|0
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|670|676|String|class|java.lang.String
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|679|683|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|685|693|BlockPos|class|net.minecraft.util.BlockPos
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|694|697|pos|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|pos|2
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|710|714|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      Field: Array Length, skipping
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|740|772|getListOfStringsMatchingLastWord|method|net.minecraft.command.CommandBase|getListOfStringsMatchingLastWord|([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|773|777|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|818|822|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      Field: Array Length, skipping
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|845|849|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|853|859|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|882|914|getListOfStringsMatchingLastWord|method|net.minecraft.command.CommandBase|getListOfStringsMatchingLastWord|([Ljava/lang/String;Ljava/util/Collection;)Ljava/util/List;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|915|919|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|921|935|CommandAliases|class|com.jamesr.commandaliases.CommandAliases
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|936|943|aliases|field|com.jamesr.commandaliases.CommandAliases|aliases
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|944|950|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+   Method End: addTabCompletionOptions(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1004|1019|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|997|1003|String|class|java.lang.String
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1020|1034|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1035|1041|sender|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1221|1235|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1281|1297|CommandException|class|net.minecraft.command.CommandException
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1236|1250|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1251|1257|sender|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1259|1265|String|class|java.lang.String
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1268|1272|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1309|1313|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1330|1334|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1338|1344|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1356|1360|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1364|1370|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1384|1388|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1392|1398|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1413|1422|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1423|1435|printMessage|method|com.jamesr.commandaliases.utils.ChatUtils|printMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1436|1451|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1452|1458|sender|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1486|1490|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1494|1500|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1516|1525|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1526|1538|printMessage|method|com.jamesr.commandaliases.utils.ChatUtils|printMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1563|1572|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1573|1579|prefix|field|com.jamesr.commandaliases.utils.ChatUtils|prefix
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1594|1599|Entry|class|java.util.Map.Entry
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1600|1606|String|class|java.lang.String
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1608|1620|AliasCommand|class|com.jamesr.commandaliases.commands.AliasCommand
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1630|1644|CommandAliases|class|com.jamesr.commandaliases.CommandAliases
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1645|1652|aliases|field|com.jamesr.commandaliases.CommandAliases|aliases
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1653|1661|entrySet|method|java.util.Map|entrySet|()Ljava/util/Set;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1669|1678|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1679|1691|printMessage|method|com.jamesr.commandaliases.utils.ChatUtils|printMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1704|1712|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1715|1720|alias|field|com.jamesr.commandaliases.commands.AliasCommand|alias
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1738|1746|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1749|1756|command|field|com.jamesr.commandaliases.commands.AliasCommand|command
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1883|1892|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1893|1899|prefix|field|com.jamesr.commandaliases.utils.ChatUtils|prefix
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1940|1944|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1948|1954|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1976|1980|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|1999|2008|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2009|2021|printMessage|method|com.jamesr.commandaliases.utils.ChatUtils|printMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2022|2037|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2038|2044|sender|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2072|2078|String|class|java.lang.String
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2087|2091|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2113|2123|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2148|2157|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2169|2183|CommandAliases|class|com.jamesr.commandaliases.CommandAliases
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2184|2192|addAlias|method|com.jamesr.commandaliases.CommandAliases|addAlias|(Ljava/lang/String;Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2200|2206|String|class|java.lang.String
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2207|2211|join|method|java.lang.String|join|(Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2217|2223|Arrays|class|java.util.Arrays
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2224|2235|copyOfRange|method|java.util.Arrays|copyOfRange|([Ljava/lang/Object;II)[Ljava/lang/Object;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2236|2240|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2245|2249|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2275|2279|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2283|2289|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2314|2318|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2338|2347|ChatUtils|class|com.jamesr.commandaliases.utils.ChatUtils
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2348|2360|printMessage|method|com.jamesr.commandaliases.utils.ChatUtils|printMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2361|2376|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2377|2383|sender|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2411|2425|CommandAliases|class|com.jamesr.commandaliases.CommandAliases
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2426|2437|removeAlias|method|com.jamesr.commandaliases.CommandAliases|removeAlias|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/commands/CommandAliasesCommand.java|2438|2442|args|param|com.jamesr.commandaliases.commands.CommandAliasesCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+Class End  : com.jamesr.commandaliases.commands.CommandAliasesCommand
+endProcessing com/jamesr/commandaliases/commands/CommandAliasesCommand.java
+
+processing com/jamesr/commandaliases/config/ConfigManager.java
+@|com/jamesr/commandaliases/config/ConfigManager.java|8|40|com.jamesr.commandaliases.config|package|com.jamesr.commandaliases.config|(file)
+Class Start: com.jamesr.commandaliases.config.ConfigManager
+   @|com/jamesr/commandaliases/config/ConfigManager.java|294|307|Configuration|class|net.minecraftforge.common.config.Configuration
+   @|com/jamesr/commandaliases/config/ConfigManager.java|308|314|config|field|com.jamesr.commandaliases.config.ConfigManager|config|
+   @|com/jamesr/commandaliases/config/ConfigManager.java|338|344|String|class|java.lang.String
+   @|com/jamesr/commandaliases/config/ConfigManager.java|345|356|CONFIG_FILE|field|com.jamesr.commandaliases.config.ConfigManager|CONFIG_FILE|
+   @|com/jamesr/commandaliases/config/ConfigManager.java|410|416|String|class|java.lang.String
+   @|com/jamesr/commandaliases/config/ConfigManager.java|417|425|CATEGORY|field|com.jamesr.commandaliases.config.ConfigManager|CATEGORY|
+   Method Start: getAliases()Ljava/util/Map;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|553|563|getAliases|method|com.jamesr.commandaliases.config.ConfigManager|getAliases|()Ljava/util/Map;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|537|543|String|class|java.lang.String
+      @|com/jamesr/commandaliases/config/ConfigManager.java|545|551|String|class|java.lang.String
+      @|com/jamesr/commandaliases/config/ConfigManager.java|533|536|Map|class|java.util.Map
+      @|com/jamesr/commandaliases/config/ConfigManager.java|573|592|refreshConfigObject|method|com.jamesr.commandaliases.config.ConfigManager|refreshConfigObject|()V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|598|601|Map|class|java.util.Map
+      @|com/jamesr/commandaliases/config/ConfigManager.java|602|608|String|class|java.lang.String
+      @|com/jamesr/commandaliases/config/ConfigManager.java|610|616|String|class|java.lang.String
+      @|com/jamesr/commandaliases/config/ConfigManager.java|628|635|HashMap|class|java.util.HashMap
+      @|com/jamesr/commandaliases/config/ConfigManager.java|636|642|String|class|java.lang.String
+      @|com/jamesr/commandaliases/config/ConfigManager.java|644|650|String|class|java.lang.String
+      @|com/jamesr/commandaliases/config/ConfigManager.java|669|675|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|676|680|load|method|net.minecraftforge.common.config.Configuration|load|()V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|695|701|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|702|713|hasCategory|method|net.minecraftforge.common.config.Configuration|hasCategory|(Ljava/lang/String;)Z
+      @|com/jamesr/commandaliases/config/ConfigManager.java|714|722|CATEGORY|field|com.jamesr.commandaliases.config.ConfigManager|CATEGORY
+      @|com/jamesr/commandaliases/config/ConfigManager.java|736|739|Map|class|java.util.Map
+      @|com/jamesr/commandaliases/config/ConfigManager.java|740|746|String|class|java.lang.String
+      @|com/jamesr/commandaliases/config/ConfigManager.java|748|756|Property|class|net.minecraftforge.common.config.Property
+      @|com/jamesr/commandaliases/config/ConfigManager.java|764|770|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|771|782|getCategory|method|net.minecraftforge.common.config.Configuration|getCategory|(Ljava/lang/String;)Lnet/minecraftforge/common/config/ConfigCategory;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|783|791|CATEGORY|field|com.jamesr.commandaliases.config.ConfigManager|CATEGORY
+      @|com/jamesr/commandaliases/config/ConfigManager.java|793|802|getValues|method|net.minecraftforge.common.config.ConfigCategory|getValues|()Ljava/util/Map;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|815|820|Entry|class|java.util.Map.Entry
+      @|com/jamesr/commandaliases/config/ConfigManager.java|821|827|String|class|java.lang.String
+      @|com/jamesr/commandaliases/config/ConfigManager.java|829|837|Property|class|net.minecraftforge.common.config.Property
+      @|com/jamesr/commandaliases/config/ConfigManager.java|847|855|entrySet|method|java.util.Map|entrySet|()Ljava/util/Set;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|868|871|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|874|880|getKey|method|java.util.Map.Entry|getKey|()Ljava/lang/Object;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|886|894|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|897|906|getString|method|net.minecraftforge.common.config.Property|getString|()Ljava/lang/String;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|932|941|Exception|class|java.lang.Exception
+      @|com/jamesr/commandaliases/config/ConfigManager.java|952|967|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|988|994|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|995|999|save|method|net.minecraftforge.common.config.Configuration|save|()V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1020|1027|HashMap|class|java.util.HashMap
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1028|1034|String|class|java.lang.String
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1036|1042|String|class|java.lang.String
+   Method End: getAliases()Ljava/util/Map;
+   Method Start: writeStringConfig(Ljava/lang/String;Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1072|1089|writeStringConfig|method|com.jamesr.commandaliases.config.ConfigManager|writeStringConfig|(Ljava/lang/String;Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1090|1096|String|class|java.lang.String
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1097|1100|key|param|com.jamesr.commandaliases.config.ConfigManager|writeStringConfig|(Ljava/lang/String;Ljava/lang/String;)V|key|0
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1102|1108|String|class|java.lang.String
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1109|1114|value|param|com.jamesr.commandaliases.config.ConfigManager|writeStringConfig|(Ljava/lang/String;Ljava/lang/String;)V|value|1
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1120|1139|refreshConfigObject|method|com.jamesr.commandaliases.config.ConfigManager|refreshConfigObject|()V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1154|1160|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1161|1165|load|method|net.minecraftforge.common.config.Configuration|load|()V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1176|1182|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1183|1194|hasCategory|method|net.minecraftforge.common.config.Configuration|hasCategory|(Ljava/lang/String;)Z
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1195|1203|CATEGORY|field|com.jamesr.commandaliases.config.ConfigManager|CATEGORY
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1248|1254|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1255|1258|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lnet/minecraftforge/common/config/Property;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1259|1267|CATEGORY|field|com.jamesr.commandaliases.config.ConfigManager|CATEGORY
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1269|1272|key|param|com.jamesr.commandaliases.config.ConfigManager|writeStringConfig|(Ljava/lang/String;Ljava/lang/String;)V|key|0
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1274|1279|value|param|com.jamesr.commandaliases.config.ConfigManager|writeStringConfig|(Ljava/lang/String;Ljava/lang/String;)V|value|1
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1286|1292|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1293|1304|getCategory|method|net.minecraftforge.common.config.Configuration|getCategory|(Ljava/lang/String;)Lnet/minecraftforge/common/config/ConfigCategory;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1305|1313|CATEGORY|field|com.jamesr.commandaliases.config.ConfigManager|CATEGORY
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1315|1318|get|method|net.minecraftforge.common.config.ConfigCategory|get|(Ljava/lang/String;)Lnet/minecraftforge/common/config/Property;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1319|1322|key|param|com.jamesr.commandaliases.config.ConfigManager|writeStringConfig|(Ljava/lang/String;Ljava/lang/String;)V|key|0
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1324|1327|set|method|net.minecraftforge.common.config.Property|set|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1328|1333|value|param|com.jamesr.commandaliases.config.ConfigManager|writeStringConfig|(Ljava/lang/String;Ljava/lang/String;)V|value|1
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1352|1361|Exception|class|java.lang.Exception
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1372|1387|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1408|1414|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1415|1419|save|method|net.minecraftforge.common.config.Configuration|save|()V
+   Method End: writeStringConfig(Ljava/lang/String;Ljava/lang/String;)V
+   Method Start: removeStringConfig(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1452|1470|removeStringConfig|method|com.jamesr.commandaliases.config.ConfigManager|removeStringConfig|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1471|1477|String|class|java.lang.String
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1478|1481|key|param|com.jamesr.commandaliases.config.ConfigManager|removeStringConfig|(Ljava/lang/String;)V|key|0
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1487|1506|refreshConfigObject|method|com.jamesr.commandaliases.config.ConfigManager|refreshConfigObject|()V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1521|1527|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1528|1532|load|method|net.minecraftforge.common.config.Configuration|load|()V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1543|1549|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1550|1561|hasCategory|method|net.minecraftforge.common.config.Configuration|hasCategory|(Ljava/lang/String;)Z
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1562|1570|CATEGORY|field|com.jamesr.commandaliases.config.ConfigManager|CATEGORY
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1579|1585|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1586|1597|getCategory|method|net.minecraftforge.common.config.Configuration|getCategory|(Ljava/lang/String;)Lnet/minecraftforge/common/config/ConfigCategory;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1598|1606|CATEGORY|field|com.jamesr.commandaliases.config.ConfigManager|CATEGORY
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1608|1614|remove|method|java.util.Map|remove|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1615|1618|key|param|com.jamesr.commandaliases.config.ConfigManager|removeStringConfig|(Ljava/lang/String;)V|key|0
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1637|1646|Exception|class|java.lang.Exception
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1673|1679|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1680|1684|save|method|net.minecraftforge.common.config.Configuration|save|()V
+   Method End: removeStringConfig(Ljava/lang/String;)V
+   Method Start: refreshConfigObject()V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1718|1737|refreshConfigObject|method|com.jamesr.commandaliases.config.ConfigManager|refreshConfigObject|()V
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1744|1750|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1757|1770|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1775|1779|File|class|java.io.File
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1780|1791|CONFIG_FILE|field|com.jamesr.commandaliases.config.ConfigManager|CONFIG_FILE
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1828|1834|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1835|1846|hasCategory|method|net.minecraftforge.common.config.Configuration|hasCategory|(Ljava/lang/String;)Z
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1847|1855|CATEGORY|field|com.jamesr.commandaliases.config.ConfigManager|CATEGORY
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1861|1867|config|field|com.jamesr.commandaliases.config.ConfigManager|config
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1868|1879|getCategory|method|net.minecraftforge.common.config.Configuration|getCategory|(Ljava/lang/String;)Lnet/minecraftforge/common/config/ConfigCategory;
+      @|com/jamesr/commandaliases/config/ConfigManager.java|1880|1888|CATEGORY|field|com.jamesr.commandaliases.config.ConfigManager|CATEGORY
+   Method End: refreshConfigObject()V
+Class End  : com.jamesr.commandaliases.config.ConfigManager
+endProcessing com/jamesr/commandaliases/config/ConfigManager.java
+
+processing com/jamesr/commandaliases/utils/ChatUtils.java
+@|com/jamesr/commandaliases/utils/ChatUtils.java|8|39|com.jamesr.commandaliases.utils|package|com.jamesr.commandaliases.utils|(file)
+Class Start: com.jamesr.commandaliases.utils.ChatUtils
+   @|com/jamesr/commandaliases/utils/ChatUtils.java|168|174|String|class|java.lang.String
+   @|com/jamesr/commandaliases/utils/ChatUtils.java|175|181|prefix|field|com.jamesr.commandaliases.utils.ChatUtils|prefix|
+   @|com/jamesr/commandaliases/utils/ChatUtils.java|201|210|Minecraft|class|net.minecraft.client.Minecraft
+   @|com/jamesr/commandaliases/utils/ChatUtils.java|211|213|mc|field|com.jamesr.commandaliases.utils.ChatUtils|mc|
+   @|com/jamesr/commandaliases/utils/ChatUtils.java|216|225|Minecraft|class|net.minecraft.client.Minecraft
+   @|com/jamesr/commandaliases/utils/ChatUtils.java|226|238|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   Method Start: printMessage(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|264|276|printMessage|method|com.jamesr.commandaliases.utils.ChatUtils|printMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|277|283|String|class|java.lang.String
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|284|291|message|param|com.jamesr.commandaliases.utils.ChatUtils|printMessage|(Ljava/lang/String;)V|message|0
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|301|303|mc|field|com.jamesr.commandaliases.utils.ChatUtils|mc
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|304|313|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|326|328|mc|field|com.jamesr.commandaliases.utils.ChatUtils|mc
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|329|338|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|339|353|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|358|375|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|376|382|prefix|field|com.jamesr.commandaliases.utils.ChatUtils|prefix
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|385|392|message|param|com.jamesr.commandaliases.utils.ChatUtils|printMessage|(Ljava/lang/String;)V|message|0
+   Method End: printMessage(Ljava/lang/String;)V
+   Method Start: sendMessage(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|420|431|sendMessage|method|com.jamesr.commandaliases.utils.ChatUtils|sendMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|432|438|String|class|java.lang.String
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|439|446|message|param|com.jamesr.commandaliases.utils.ChatUtils|sendMessage|(Ljava/lang/String;)V|message|0
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|452|454|mc|field|com.jamesr.commandaliases.utils.ChatUtils|mc
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|455|464|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|465|480|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+      @|com/jamesr/commandaliases/utils/ChatUtils.java|481|488|message|param|com.jamesr.commandaliases.utils.ChatUtils|sendMessage|(Ljava/lang/String;)V|message|0
+   Method End: sendMessage(Ljava/lang/String;)V
+Class End  : com.jamesr.commandaliases.utils.ChatUtils
+endProcessing com/jamesr/commandaliases/utils/ChatUtils.java
+
+processing com/jamesr/commandaliases/utils/SystemUtils.java
+@|com/jamesr/commandaliases/utils/SystemUtils.java|8|39|com.jamesr.commandaliases.utils|package|com.jamesr.commandaliases.utils|(file)
+Class Start: com.jamesr.commandaliases.utils.SystemUtils
+   Method Start: combineArrays([[Ljava/lang/String;)[Ljava/lang/String;
+      @|com/jamesr/commandaliases/utils/SystemUtils.java|95|108|combineArrays|method|com.jamesr.commandaliases.utils.SystemUtils|combineArrays|([[Ljava/lang/String;)[Ljava/lang/String;
+      @|com/jamesr/commandaliases/utils/SystemUtils.java|86|92|String|class|java.lang.String
+      @|com/jamesr/commandaliases/utils/SystemUtils.java|109|115|String|class|java.lang.String
+      @|com/jamesr/commandaliases/utils/SystemUtils.java|121|125|arrs|param|com.jamesr.commandaliases.utils.SystemUtils|combineArrays|([[Ljava/lang/String;)[Ljava/lang/String;|arrs|0
+      @|com/jamesr/commandaliases/utils/SystemUtils.java|172|178|String|class|java.lang.String
+      @|com/jamesr/commandaliases/utils/SystemUtils.java|187|191|arrs|param|com.jamesr.commandaliases.utils.SystemUtils|combineArrays|([[Ljava/lang/String;)[Ljava/lang/String;|arrs|0
+      Field: Array Length, skipping
+      @|com/jamesr/commandaliases/utils/SystemUtils.java|239|245|String|class|java.lang.String
+      @|com/jamesr/commandaliases/utils/SystemUtils.java|258|264|String|class|java.lang.String
+      @|com/jamesr/commandaliases/utils/SystemUtils.java|307|313|String|class|java.lang.String
+      @|com/jamesr/commandaliases/utils/SystemUtils.java|322|326|arrs|param|com.jamesr.commandaliases.utils.SystemUtils|combineArrays|([[Ljava/lang/String;)[Ljava/lang/String;|arrs|0
+      @|com/jamesr/commandaliases/utils/SystemUtils.java|339|345|System|class|java.lang.System
+      @|com/jamesr/commandaliases/utils/SystemUtils.java|346|355|arraycopy|method|java.lang.System|arraycopy|(Ljava/lang/Object;ILjava/lang/Object;II)V
+      Field: Array Length, skipping
+      Field: Array Length, skipping
+   Method End: combineArrays([[Ljava/lang/String;)[Ljava/lang/String;
+Class End  : com.jamesr.commandaliases.utils.SystemUtils
+endProcessing com/jamesr/commandaliases/utils/SystemUtils.java
+
